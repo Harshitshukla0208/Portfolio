@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <title>👋 Harshit Shukla</title>
+  </head>
+  <body>
+    <nav>
+      <h3 class="header_nav">Harshit Shukla</h3>
+      <ul>
+        <li>
+          <a
+            href="#home"
+            onclick="window.open('#home', '_self');"
+            class="nav-link active"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="#services"
+            onclick="window.open('#services', '_self');"
+            class="nav-link"
+            >Services</a
+          >
+        </li>
+        <li>
+          <a
+            href="#projects"
+            onclick="window.open('#projects', '_self');"
+            class="nav-link"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <a
+            href="#contact"
+            onclick="window.open('#contact', '_self');"
+            class="nav-link"
+            >Contact</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <section class="landing_section" id="home">
+      <div class="landing_text">
+        <h1>Hey, I'm <span class="name">Harshit</span> 👋</h1>
+        <h2 class="fadeText" id="changingText"></h2>
+        <p>
+          I'm a Fullstack Web Developer. I love to create
+          and learn new things. I enjoy working in teams and connecting with
+          interesting people. I'm always looking for new opportunities to learn
+          and grow, both as a developer and as a person.
+        </p>
+
+        <div class="social_bar">
+          <a href="https://www.instagram.com/harshitshukla_780/" class="icon"
+            ><i class="bi bi-instagram"></i
+          ></a>
+          <a href="https://github.com/Harshitshukla0208" class="icon"
+            ><i class="bi bi-github"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/harshit-shukla-9a5950239/" class="icon"
+            ><iconify-icon icon="akar-icons:linkedin-fill"></iconify-icon></i
+          ></a>
+          <a href="https://leetcode.com/Harshitshukla_02/" class="icon"
+            ><iconify-icon icon="simple-icons:leetcode"></iconify-icon></i
+          ></a>
+        </div>
+        <button class="btn-primary popIn">CV Soon</button>
+      </div>
+      <img class="landing_picture shaping" src="me.jpg" alt="" />
+    </section>
+    <section class="services_section" id="services">
+      <h1>My <span class="name">Services</span></h1>
+      <div class="row fadein">
+        <div class="card">
+          <i class="bi bi-globe"></i>
+          <h2>Website Creation</h2>
+          <p>
+            I enjoy building simple, fresh, and smooth designs. I'm always
+            looking for new ways to improve my skills and learn new things. For
+            frontend, I use HTML, CSS, JavaScript, and React.
+          </p>
+        </div>
+        <div class="card">
+          <i class="bi bi-code-slash"></i>
+          <h2>App Building</h2>
+          <p>
+            I specialize in crafting robust and scalable full-stack
+            applications. For the backend, I use Node.js, Express,
+            SQL, and MongoDB. I prioritize clean code practices and stay updated
+            on the latest industry trends.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="projects">
+      <h1>My <span class="name">projects</span></h1>
+      <div class="row slidein">
+        <div class="card_project">
+          <a
+            href="#"
+            class="card_project-button"
+            >Go there</a
+          >
+          <img
+            class="card_project_img"
+            style="transform: translateY(10%)"
+            src="#"
+            alt=""
+          />
+          <div class="card_project-description-background"></div>
+          <div class="card_project-description">
+            <h4>
+              Github
+              <i class="bi bi-github"></i>
+            </h4>
+            <p>
+              All my personal projects are stored on my Github account. I use
+              Github for version control and also for sharing my work with
+              others.
+            </p>
+          </div>
+        </div>
+        <div class="card_project">
+          <a href="https://github.com/Harshitshukla0208" class="card_project-button"
+            >Go there</a
+          >
+          <img class="card_project_img gh" src="gh.png" alt="" />
+          <div class="card_project-description-background"></div>
+          <div class="card_project-description">
+            <h4>
+              Github
+              <i class="bi bi-github"></i>
+            </h4>
+            <p>
+              All my personal projects are stored on my Github account. I use
+              Github for version control and also for sharing my work with
+              others.
+            </p>
+          </div>
+        </div>
+        <div class="card_project">
+          <img class="card_project_img ds" src="#" alt="" />
+          <div class="card_project-description-background"></div>
+          <div class="card_project-description">
+            <h4>
+              Github
+              <i class="bi bi-github"></i>
+            </h4>
+            <p>
+              All my personal projects are stored on my Github account. I use
+              Github for version control and also for sharing my work with
+              others.
+            </p>
+          </div>
+        </div>
+        <div class="card_project">
+          <a href="https://github.com/Harshitshukla0208" class="card_project-button"
+            >Go there</a
+          >
+          <img class="card_project_img" src="#" alt="" />
+          <div class="card_project-description-background"></div>
+          <div class="card_project-description">
+            <h4>
+              Github
+              <i class="bi bi-github"></i>
+            </h4>
+            <p>
+              All my personal projects are stored on my Github account. I use
+              Github for version control and also for sharing my work with
+              others.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="card_contact popup">
+        <h1>Contact <span class="name">me</span></h1>
+        <p>
+          Feel free to contact me on any of the following platforms or
+          Instagram:
+        </p>
+        <ul>
+          <li>Email: mrharshitshukla2672@gmail.com</li>
+          <li>Discord: harshitshukla_69581</li>
+        </ul>
+      </div>
+    </section>
+  </body>
+</html>
